@@ -1,0 +1,11 @@
+<div
+  [class]="'card ' + suit"
+  [ngStyle]="{ 'left.px': position.x, 'top.px': position.y }"
+>
+  <ng-container *ngIf="number">
+    <span class="number">{{ numberHtml }}</span>
+  </ng-container>
+  <ng-container *ngIf="suit">
+    <span class="suit">{{ suitHtml }}</span>
+  </ng-container>
+</div>

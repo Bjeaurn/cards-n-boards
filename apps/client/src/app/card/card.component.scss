@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 2em 1em;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 0.4em;
+  position: fixed;
+  width: 4em;
+  text-align: center;
+  display: flex;
+  flex: 1 1 auto;
+  margin: 2px;
+  transition: 0.2s ease-in-out;
+  &:active {
+    transform: scale(1.2);
+    cursor: grab;
+  }
+
+  cursor: normal;
+
+  &.clubs,
+  &.spades {
+    color: black;
+  }
+  &.diamonds,
+  &.hearts {
+    color: red;
+  }
+}
+.number,
+.suit {
+  pointer-events: none;
+  cursor: default;
+  font-size: 2em;
+  user-select: none;
+}
