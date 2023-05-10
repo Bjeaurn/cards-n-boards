@@ -61,7 +61,7 @@
     "@nrwl/node": "9.1.4",
     "@angular/compiler-cli": "9.0.0",
     "@angular/language-service": "9.0.0",
-    "@angular-devkit/build-angular": "0.900.1",
+    "@angular-devkit/build-angular": "16.0.0",
     "codelyzer": "~5.0.1",
     "karma": "~4.0.0",
     "karma-chrome-launcher": "~2.2.0",
